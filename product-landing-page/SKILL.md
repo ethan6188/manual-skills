@@ -1,13 +1,13 @@
 ---
 name: product-landing-page
-description: 为桌面/移动应用做单页产品官网（功能介绍 + 下载入口）并部署成静态站点。Use when asked to design, build, polish, deploy or publish a product landing page / 官网 / 下载页, wire up its download link, or ship it behind systemd on an internal Linux box.
+description: 产品官网的设计与开发全流程：单页功能介绍加下载入口，继承产品设计系统，再部署成静态站。Use when asked to design, build, polish, deploy or publish a product landing page / 官网 / 下载页, wire up its download link, or ship it behind systemd on a Linux box.
 ---
 
-# 产品官网：从设计到上线
+# 产品官网：设计、开发到上线
 
-一页、无构建、三个文件（`index.html` / `styles.css` / `app.js`）加图片资源。风格直接继承产品自己的设计系统，功能区用 HTML 画出来的界面片段，而不是截图。验证过的做法，全部来自一次真实的上线。
+一页、无构建、三个文件（`index.html` / `styles.css` / `app.js`）加图片资源。风格直接继承产品自己的设计系统，功能区用 HTML 画出来的界面片段，而不是截图。验证过的做法，全部来自一次真实的设计与开发。
 
-路径相对于本 skill 目录。
+路径相对于本 skill 目录。按下面的顺序读：本文是主线；[references/process.md](references/process.md) 记录设计与开发的先后顺序、每步取舍和返工；[references/design.md](references/design.md) 是令牌与版面细节；[references/static-deploy.md](references/static-deploy.md) 是部署。
 
 ## 开工前
 
